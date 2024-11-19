@@ -32,7 +32,7 @@ public class ZigZagIndicatorTest extends TestCase {
             assertEquals(expectedZigZagValues[i], zigZagIndicator.getValue(), 0.01, "ZigZag calculation failed at index " + i);
         }
    }
-    // Used for Testing
+    
     private void assertEquals(double expectedZigZagValue, double value, double v, String s) {
     }
 
